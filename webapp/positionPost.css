@@ -1,0 +1,81 @@
+.positionpostcontainer{
+	background-color:rgb(255,255,255,0.6);
+	border-radius:10px;
+	padding:10px;
+	position:fixed;
+	top:30%;
+	left:2%;
+}
+.showName{
+    float: left;
+    display: block;
+    height: 300px;
+    width:60px;
+    font-size: 60px;
+    font-family:cursive;
+    line-height: 75px;
+    background-color: rgb(90, 138, 233);
+    margin: 10px;
+    margin-top: 0px;
+    border-radius: 10px;
+}
+.contentContainer{
+    display: block;
+    align-items: center;
+    white-space: nowrap;
+    float: left;
+    border-radius: 10px;
+    width: 0px;
+    height: 50px;
+    height:300px;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 900;
+    color: rgb(37, 43, 29);
+    line-height: 50px;
+    background-color: rgb(139, 175, 86);
+    transition: 0.5s;
+    overflow: hidden;
+    transition: 1;
+}
+#qianwei{
+    background-image: url('images/log\ in/qianwei.jpg');
+}
+#nanling{
+    background-image: url('images/log\ in/nanling.png');
+}
+#xinmin {
+    background-image: url('images/log\ in/xinmin.jpeg');
+}
+#chaoyang {
+    background-image: url('images/log\ in/chaoyang.jpeg');
+}
+#nanhu {
+    background-image: url('images/log\ in/nanhu.jpeg');
+}
+#heping{
+    background-image: url('images/log\ in/heping.jpeg');
+}
+.innerImage{
+    position: relative;
+    left: 12px;
+    top:12px;
+    width:376px;
+    height: 60%;
+    background-color:antiquewhite;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 10px;
+}
+.shortIntro{
+    font-size: 20px;
+    position: relative;
+    bottom:15px;
+    left:10%;
+    width:80%;
+    height: 40px;
+    line-height: 40px;
+    background-color: rgb(117, 218, 196);
+    text-align: center;
+    border-radius: 20px;
+}
